@@ -1,0 +1,184 @@
+---
+title: "Suicide Info"
+output: html_notebook
+---
+
+### Intoduction
+
+In this post we are going to see how we can compare two variables. These two variables might be of same type or different types. Recall from earlier <a href="https://github.com/umairk83/hands_on_stuff/tree/master/ufo%20sightings"> post </a>, variables are of two types: <b>Quantitative variable</b> and <b>Qualitative variable</b>. Quantitative being the ones you can count or measure. Qualitative Variables are those which are in textual form.
+
+### Data under inspection
+
+I was just going through Kaggle, when I came across <a href ="https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016">
+<b> Suicide Rates Overview 1985 to 2016 </b></a> page. As per the content description at the mentioned page: </br>
+<i>This compiled dataset pulled from four other datasets linked by time and place, and was built to find signals correlated to increased suicide rates among different cohorts globally, across the socio-economic spectrum. </i>
+
+Looks like interesting dataset. Lets start with inspection.
+
+### What are going to do. 
+
+For any analysis, we need to see how variables impact other variables. This is particularly important when doing regression etc analysis. Any dataset might have any number of columns. However the easiest way might be to study any two variables. To decide variables, we might need to consult the expert of that domain. Of couse we don't want to know how oil prices are affecting cricket team performance, since its almost insignificant.
+
+Anyway I am no expert of homocide. All I will be showing would be to consider two variables and study their impacts.
+
+Go ahead and download the data. Store it on some location and then use read.csv to save the file.
+
+First go ahead and load the following libraries:
+
+```{r echo=FALSE}
+library(plyr)
+library(stringr)
+library(ggplot2)
+```
+
+Now load the data.
+
+```{r}
+file_path <- 'data.csv'
+data <-  read.csv(file_path, stringsAsFactors = FALSE)
+```
+
+Once the data has been loaded, lets look at what we have got:
+
+```{r}
+head(data)
+```
+
+We can see that we need to change the names of the columns so that they are more readable.
+
+```{r}
+colnames(data) <- cbind('country', 'year', 'sex', 'age', 'suicides_no', 'population', 'suicides_100k_pop',
+'country_year','hdi_for_year', 'gdp_for_year', 'gdp_per_capita', 'generation')
+
+for (a in colnames(data)) {
+  print(paste(a, sapply(data[a], class), sep = " "))
+}
+```
+
+For the sake of simplicity lets consider one country at a time. So lets pick 'Turkey'
+Lets take the turkish data aside. We can see that country_year has Turkey attached with it. So we need to replace it with only year.
+
+```{r}
+turkish_data <- data[ data$country == 'Turkey', ]
+```
+
+```{r}
+string_replace_function <- function (item) {
+  item <- str_replace(item, 'Turkey', '')
+}
+string_replace_function('turkey2009')
+```
+
+Now lets look at the different types of graphs we can generate
+
+#### Line Chart
+
+Line chart is the most common way of representing the information. Simply it conssits of dpeendnet and independnet variables along Y and X axes respectively. Below is a simple snippet to build a nice Line chart. 
+
+```{r echo=TRUE}
+line_chart_data <- data.frame(stringsAsFactors = FALSE)
+unique_years <- rbind(unique(turkish_data$year))
+
+for (year in unique_years) {
+
+    result <- cbind(year, sum(turkish_data[turkish_data$year == year, ]['suicides_no']))
+  line_chart_data <- rbind(line_chart_data, result)
+}
+colnames(line_chart_data) <- cbind("Year", "Suicides")
+
+
+ggplot(data=line_chart_data, aes(x=Year, y=Suicides)) +
+  geom_line() +
+  geom_point() + 
+  theme(panel.background = element_rect(fill = "lightblue", colour = "lightblue", size = 0.5, linetype = "solid"),
+        panel.grid.major = element_line(size = 0.5, linetype = 'solid', colour = "white"), 
+        panel.grid.minor = element_line(size = 0.25, linetype = 'solid', colour = "white"))
+
+```
+
+#### Violin plot
+
+What for Violin plot is a powerful data visualization technique since it allows to compare both the ranking of several groups and their distribution. I have seen violin plot used very less compared to other charts.
+
+```{r}
+ggplot(data = turkish_data, aes(x=sex , y = suicides_no, group=age, color=age)) +
+  geom_violin() +
+  theme_minimal()
+```
+
+#### Scatter Plot
+
+Scatter plot helps in evaluating how much data points are dispersed against a particular varianle. In other words it effectively visualizes the variance of information. Below is how you can make a scatter plot.
+
+```{r}
+scatter_plot_data <- data.frame()
+
+for(year in unique(turkish_data$year)) {
+  
+  result <- cbind(year , sum(turkish_data[turkish_data$year == year, ]['suicides_no']))
+  scatter_plot_data <- rbind(scatter_plot_data, result)  
+  
+}
+
+colnames(scatter_plot_data)  <- cbind('Year',  'Suicides Count')
+
+ggplot(data = scatter_plot_data, aes(x= Year, y = `Suicides Count`)) +
+  geom_point() +
+  scale_color_brewer(palette="Dark2") + 
+  theme_minimal();
+```
+
+#### Histogram with Density Plot
+
+In historgram we divide the data into bins and then see how many observations fall into that bin. This is used to find the distribution of data. 
+
+In the below example we again use the turkish data to plot the histogram.
+
+```{r}
+ggplot(data=turkish_data) +
+  geom_histogram(aes(x=suicides_no, color=age, fill=age), binwidth=10, alpha=0.7,position="identity") +
+  geom_vline(data=turkish_data, aes(xintercept=mean(suicides_no)), linetype="dashed", size=1)
+```
+
+#### Box Plot
+
+A boxplot is a way of visualizing data based on summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”). It can be helpful in finding the outliers.
+
+In the below example we shall see how box plot can be created for suicides 100k.
+
+```{r}
+ggplot(data=data, aes(x=age, y=suicides_100k_pop, color = age)) + 
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_color_brewer(palette="Dark2")  +
+  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9", "#56B4E9", "#56B4E9")) +
+  stat_summary(fun.y=mean, geom="point");
+```
+
+#### Bar Plot
+
+A bar plot is one of the most common forms of graphs used to represent the information. Below is an example of how this could be generated using R
+
+```{r}
+df <- data.frame(
+  year=c("2010", "2011", "2012", '2013'), 
+  sum=c(sum(sum(turkish_data[turkish_data$year == '2010', ]['suicides_no'])), 
+        sum(sum(turkish_data[turkish_data$year == '2011', ]['suicides_no'])),
+        sum(sum(turkish_data[turkish_data$year == '2012', ]['suicides_no'])),
+        sum(sum(turkish_data[turkish_data$year == '2013', ]['suicides_no']))
+        ))
+
+colnames(df)<- cbind('Year',  'Count')
+
+# Stacked barplot with multiple groups
+ggplot(data=df, aes(x= Year, y=Count)) +
+  geom_bar(stat="identity", position=position_dodge(), fill = 'steelblue') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+In this example we have used the <b> Violin Chart Data </b>. Only the data for 2009 and 2010 are used. We have grouped the data to show the comparison. For each age group, count has been shown further divided into years. Effectively it can be seen that for each age group number of suicides in 2010 is greates that 2009.
+
+### Conclusion
+
+In this article we saw how we can select any graph and plot accordinly. We also saw how to load dataset, manipulate the data to bring it in the form we need. The take away is to consier what are the types of variables involved in the plot such as discrete vs continuous, discrete vs discrete and continuous vs continuous. Clear and briliiant graphs can help making the furhter analysis procedure comprehensible.
+
