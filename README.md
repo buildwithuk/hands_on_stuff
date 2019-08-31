@@ -7,3 +7,5 @@ This is when I started this repository where all posts would go. This repository
 Below is the index of all the posts:
 
 <b> Plotting UFO Sightings data (ufo notebook.nb): </b> Contains some plottings and modification of data as per requirements.
+
+<b> Suicide Info </b>: Contains code for how different plots can be created between two variables.
