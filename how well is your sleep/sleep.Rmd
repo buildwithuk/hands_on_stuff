@@ -1,0 +1,241 @@
+---
+title: "How is your sleep? (Part 1)"
+output: html_notebook
+---
+
+In this post I will be looking at the sleep data, and see how we can study the correlations between two variables.
+
+The data under inspection is a sleep data I came across on Kaggle. You can find the data 
+<a href="https://www.kaggle.com/danagerous/sleep-data">here </a>
+
+### What we are going to do?
+
+We shall be looking at the correlations between dependent and independent variables. Before we begin there are two types of variables: <b>Catagorial variable and Quantitative variable </b>
+You can find more <a href="https://medium.com/listening-data/suicide-info-55a6e9d61f10"> here</a>.
+
+### Lets begin
+
+We shall be using some libraries as we go along. So lets load those. You might need to install those as well.
+
+```{r}
+library(dplyr)
+library(stringr)
+library(ggplot2)
+```
+
+Now load the data.
+
+```{r}
+data <-
+  read.csv(
+    "sleepdata.csv", header = TRUE, sep = ';', stringsAsFactors = FALSE
+  )
+
+head(data)
+```
+
+Its clear from the above table that sleep quality is the output variable (the variable we want to understand). Other variables are influencing this variable. So in terms of statistics we cay say in layman terms <b>Sleep quality </b> is dependent while all others are independent. 
+
+We see that there is <b>.</b> in the columns. I don't like this. So lets manipulate the columns.
+
+```{r}
+colnames(data) <-
+  cbind(
+    'Start',
+    'End',
+    'Sleep Quality',
+    'Time in Bed',
+    'Wake up',
+    'Sleep Notes',
+    'Heart Rate',
+    'Activity Steps'
+  )
+
+head(data)
+```
+
+Better! Now I want to pick the columns I want to look at. I don't want to look at the <b>Start time</b> and <b>End time</b> since they have already calculated the time in bed for us. So now lets look cherry pick the columns you want.
+
+
+```{r}
+subset_df <- data %>%
+  select('Sleep Quality',
+         'Time in Bed',
+         'Wake up',
+         'Sleep Notes',
+         'Heart Rate')
+```
+
+As you can see the I have saved it in a new variable. Now we shall be looking at each column one by one.
+
+### Wake up Column
+
+What do we have in Wake up column. 
+
+```{r}
+
+head(subset_df$`Wake up`)
+```
+
+So we see its the categorial variable. But there is one problem. I cannot use smilies (rofl). So lets replace these.
+
+```{r}
+subset_df[subset_df$`Wake up` == ':)',]$`Wake up` <- 'Good'
+subset_df[subset_df$`Wake up` == ':(',]$`Wake up` <- 'Bad'
+subset_df[subset_df$`Wake up` == ':|',]$`Wake up` <- 'Ok'
+subset_df[subset_df$`Wake up` == "",]$`Wake up` <- 'NA'
+```
+
+### Sleep notes
+
+Now lets look at the sleep notes column
+
+```{r}
+unique(subset_df$`Sleep Notes`)
+```
+
+Now we see that we have entries that are redundant. Not just redundant, they are also representing some distinct feature. Consider this like my sleep was good when I had not drunk coffee, I did not have stressful day and I had worked out. So we see any note is representing multiple information. So we gotta see how we are going to deal with. Below is what I think should be done:
+
+```{r}
+for (row in 1:nrow(subset_df)) {
+  sleep_notes <- subset_df[row, 'Sleep Notes']
+  
+  ## For Worked out
+  if (sleep_notes == '') {
+    subset_df[row, 'Worked Out'] <- 'NA'
+    
+    subset_df[row, 'Stressed'] <- 'NA'
+    
+    subset_df[row, 'Late Meal'] <- 'NA'
+    
+    subset_df[row, 'Caffeinated'] <- 'NA'
+    
+    
+    next
+  }
+  
+  subset_df[row, 'Stressed'] <-
+    str_detect(sleep_notes, 'Stressful day')
+  subset_df[row, 'Worked Out'] <-
+    str_detect(sleep_notes, 'Worked out')
+  subset_df[row, 'Late Meal'] <-
+    str_detect(sleep_notes, 'Ate late')
+  
+  if (str_detect(sleep_notes, 'Drank coffee') == TRUE &&
+      str_detect(sleep_notes, 'Drank tea') == TRUE) {
+    subset_df[row, 'Caffeinated'] <- 'HIGH'
+  } else {
+    subset_df[row, 'Caffeinated'] <- 'LOW'
+  }
+  
+}
+```
+
+Basically we add new columns to our dataset and we assign the values in each column for that sleep note. Four columns added and values assigned. Notice that we have assigned <b>ranks</b> in the <b>Caffeinated</b> column. This is called <b>Ordinal data</b>.
+
+So now our dataset looks something like this:
+
+```{r}
+head(subset_df)
+```
+
+### Heart Rate 
+
+Investigating Heart rate column is interesting. First lets see the unique values of this column
+
+```{r}
+count(subset_df[is.na(subset_df$`Heart Rate`) == TRUE, ])
+```
+
+We see that so many values are null. Now this is a problem. What does null heart rate means? Heart rate cannot be null that is for sure. So this probably points to the missing data. Now what to do? 
+
+Missing data is a big topic, beyond the focus of this post. So in simpler terms, we have to either fill these missing spaces or we have to skip the rows what heart rate is not present.
+
+Lets go with the first option
+
+```{r}
+count(subset_df)
+```
+
+There are some 887 observations, in the dataset. Out of which as we have seen, 725 are without heart rate. So if we wish to skip these rows, we simply cannot proceed.
+
+Now the other option. Fill the data ourselves. For this, we have to think of some way to generate the values. Lets see what we can do:
+
+```{r}
+stats <- boxplot(subset_df$`Heart Rate`, horizontal = TRUE, notch = TRUE)
+```
+
+We see that most of the values are lying around 60 value. 
+This is a box plot. You can read more about Box plot <a href="https://medium.com/listening-data/suicide-info-55a6e9d61f10">here</a>.
+
+```{r}
+heart_rate_without_na = subset_df[is.na(subset_df$`Heart Rate`) == FALSE,]
+
+Q3 <- as.integer(quantile(heart_rate_without_na$`Heart Rate`, 0.75))
+Q1 <- as.integer(quantile(heart_rate_without_na$`Heart Rate`, 0.25))
+
+print(Q1)
+print(Q3)
+
+```
+
+We find the First Quantile and Third Quantile. So what it means is that majority of the values are lying in between these two values. So we fill the missing values by generating random values between these two boundaries.
+
+Below is the code:
+
+```{r}
+for(row in 1:nrow(subset_df)) {
+  
+  heart_rate <- subset_df[row, 'Heart Rate']
+  
+  if (is.na(heart_rate) == TRUE) {
+    
+    generated_heart_rate <- sample(Q1:Q3, 1, replace = FALSE);
+    subset_df[row, 'Heart Rate'] <- generated_heart_rate;
+    
+  } 
+}
+```
+
+Here is a note:
+
+<b><i>Introducing the missing values is a comprehensive subject. In the industry, consultants and experts are hired to assist in putting the missing values. For instance, any biological expert might say that when you are caffeinated, you heart rate would be greater than when you did not take caffein. Here in this example I have just taken a very simplistic approach. When solving the real world problems, you need to research what is the best way to insert values.</i></b>
+
+### Sleep Quality
+
+Sleep quality is our column of interest. It is defined in percentage. We want to have it numeric so simply we extract the percentage sign out of it. Then we convert the type of Sleep Quality from character to integer.
+
+```{r}
+for (row in 1:nrow(subset_df)) {
+  sleep_quality = subset_df[row, 'Sleep Quality']
+  subset_df[row, 'Sleep Quality'] <-as.integer(gsub('^\\%|\\%$', '', sleep_quality))
+}
+
+subset_df$`Sleep Quality` <- as.integer(subset_df$`Sleep Quality`)
+typeof(subset_df$`Sleep Quality`)
+```
+
+### Time in Bed
+
+If we look at this column we see that its in Hour : Minute form. So we either need to completely convert into minutes or hours. Its better if we did into minutes.
+Below is the code to convert the time in minutes
+
+```{r}
+
+for (row in 1: nrow(subset_df)) {
+  
+  time = subset_df[row, 'Time in Bed']
+  minutes = as.numeric(strsplit(time, ':')[[1]][2])
+  hours = as.numeric(strsplit(time, ':')[[1]][1])
+
+  subset_df[row, 'Minutes in Bed'] <- (hours * 60) + minutes
+}
+
+
+```
+
+### Conclusion
+
+Now that we have curated the data as we need, in the next blog we shall see how we can utilize this data to make some visualizaitons in R and see how we can have good night's sleep !
+
+Thanks for reading.
