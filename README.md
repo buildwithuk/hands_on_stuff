@@ -9,3 +9,5 @@ Below is the index of all the posts:
 <b> Plotting UFO Sightings data (ufo notebook.nb): </b> Contains some plottings and modification of data as per requirements.
 
 <b> Suicide Info </b>: Contains code for how different plots can be created between two variables.
+
+<b> How well is your sleep ! </b>: Just some transformations on how we can bring the data into the form we need. We utilize the sleep data from Kaggle to understand 
