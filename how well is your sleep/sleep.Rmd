@@ -21,6 +21,7 @@ We shall be using some libraries as we go along. So lets load those. You might n
 library(dplyr)
 library(stringr)
 library(ggplot2)
+library(xlsx)
 ```
 
 Now load the data.
@@ -233,6 +234,20 @@ for (row in 1: nrow(subset_df)) {
 
 
 ```
+
+### Save the Transformed Data into Excel
+
+Now save the transformed data so that we can use it later on. 
+We save it to Excel sheet so that it can be looked up conveniently ...
+
+Below is the code to do it.
+
+```{r}
+write.xlsx(subset_df, "Sleep data transformed.xlsx") 
+write.csv(subset_df, "Sleep data transformed.csv") 
+```
+
+
 
 ### Conclusion
 
