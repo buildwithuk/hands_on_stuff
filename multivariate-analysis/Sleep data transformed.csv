@@ -1,0 +1,888 @@
+"Sid","Sleep Quality","Time in Bed","Wake up","Sleep Notes","Heart Rate","Worked Out","Stressed","Late Meal","Caffeinated","Minutes in Bed"
+"1",100,"8:32","Good","",59,"NA","NA","NA","NA",512
+"2",3,"0:16","Ok","Stressful day",72,"FALSE","TRUE","FALSE","LOW",16
+"3",98,"8:30","Ok","",57,"NA","NA","NA","NA",510
+"4",65,"7:32","NA","",59,"NA","NA","NA","NA",452
+"5",72,"6:44","Good","Drank coffee:Drank tea",68,"FALSE","FALSE","FALSE","HIGH",404
+"6",83,"7:12","Good","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",432
+"7",78,"7:14","NA","Drank tea",63,"FALSE","FALSE","FALSE","LOW",434
+"8",78,"7:18","Good","Ate late:Drank coffee",57,"FALSE","FALSE","TRUE","LOW",438
+"9",69,"7:27","Good","Drank coffee:Drank tea:Worked out",56,"TRUE","FALSE","FALSE","HIGH",447
+"10",74,"7:35","Ok","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",455
+"11",81,"9:19","Good","Drank coffee:Drank tea:Stressful day",62,"FALSE","TRUE","FALSE","HIGH",559
+"12",88,"7:16","Good","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",436
+"13",77,"9:01","Ok","Drank coffee:Drank tea",65,"FALSE","FALSE","FALSE","HIGH",541
+"14",89,"8:50","Ok","Drank coffee:Drank tea",65,"FALSE","FALSE","FALSE","HIGH",530
+"15",78,"8:08","Good","Drank tea",53,"FALSE","FALSE","FALSE","LOW",488
+"16",100,"9:11","Good","Drank tea:Worked out",65,"TRUE","FALSE","FALSE","LOW",551
+"17",100,"8:06","Good","Drank coffee:Drank tea",55,"FALSE","FALSE","FALSE","HIGH",486
+"18",88,"7:13","Good","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",433
+"19",87,"7:22","Good","Drank tea",60,"FALSE","FALSE","FALSE","LOW",442
+"20",83,"6:51","Good","Drank coffee:Drank tea",94,"FALSE","FALSE","FALSE","HIGH",411
+"21",93,"7:51","Good","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",471
+"22",58,"7:12","Good","Drank coffee",67,"FALSE","FALSE","FALSE","LOW",432
+"23",16,"1:13","Good","",58,"NA","NA","NA","NA",73
+"24",75,"8:00","Ok","Drank coffee:Drank tea:Worked out",54,"TRUE","FALSE","FALSE","HIGH",480
+"25",80,"8:02","Ok","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",482
+"26",87,"7:42","Good","Drank coffee:Drank tea:Worked out",75,"TRUE","FALSE","FALSE","HIGH",462
+"27",87,"9:19","Good","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",559
+"28",83,"7:35","Ok","Drank coffee:Drank tea:Stressful day",66,"FALSE","TRUE","FALSE","HIGH",455
+"29",76,"7:37","Good","Drank coffee:Drank tea:Stressful day",57,"FALSE","TRUE","FALSE","HIGH",457
+"30",67,"7:05","Good","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",425
+"31",93,"8:03","Good","Drank coffee:Drank tea:Stressful day",62,"FALSE","TRUE","FALSE","HIGH",483
+"32",64,"7:13","Good","Drank coffee:Drank tea",56,"FALSE","FALSE","FALSE","HIGH",433
+"33",75,"7:49","Good","Drank tea",61,"FALSE","FALSE","FALSE","LOW",469
+"34",72,"7:32","Good","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",452
+"35",70,"7:07","Good","Drank tea:Worked out",57,"TRUE","FALSE","FALSE","LOW",427
+"36",89,"8:17","Good","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",497
+"37",85,"8:17","Good","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",497
+"38",59,"8:00","Good","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",480
+"39",67,"7:36","Good","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",456
+"40",69,"6:49","Good","Drank coffee:Drank tea:Worked out",53,"TRUE","FALSE","FALSE","HIGH",409
+"41",74,"7:04","Good","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",424
+"42",78,"6:13","Good","Drank coffee:Drank tea:Worked out",65,"TRUE","FALSE","FALSE","HIGH",373
+"43",70,"6:45","Good","Drank coffee:Drank tea",55,"FALSE","FALSE","FALSE","HIGH",405
+"44",77,"7:40","Good","Drank coffee:Drank tea:Stressful day",66,"FALSE","TRUE","FALSE","HIGH",460
+"45",72,"7:00","Good","Drank coffee:Drank tea:Worked out",55,"TRUE","FALSE","FALSE","HIGH",420
+"46",92,"8:55","Good","Drank coffee:Drank tea",56,"FALSE","FALSE","FALSE","HIGH",535
+"47",87,"8:02","Good","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",482
+"48",69,"7:49","Good","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",469
+"49",65,"5:54","Ok","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",354
+"50",90,"7:54","Good","Drank tea:Worked out",61,"TRUE","FALSE","FALSE","LOW",474
+"51",88,"9:29","Good","Drank coffee",62,"FALSE","FALSE","FALSE","LOW",569
+"52",61,"7:43","Good","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",463
+"53",54,"9:19","Good","Drank coffee:Drank tea:Stressful day:Worked out",68,"TRUE","TRUE","FALSE","HIGH",559
+"54",86,"7:50","Good","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",470
+"55",69,"7:25","Good","Drank coffee",61,"FALSE","FALSE","FALSE","LOW",445
+"56",99,"8:50","Good","Drank coffee:Drank tea",67,"FALSE","FALSE","FALSE","HIGH",530
+"57",82,"8:01","Good","Drank coffee:Drank tea",71,"FALSE","FALSE","FALSE","HIGH",481
+"58",77,"7:40","Good","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",460
+"59",72,"7:36","Good","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",456
+"60",82,"7:00","Good","",62,"NA","NA","NA","NA",420
+"61",75,"7:32","Good","Drank coffee:Drank tea",54,"FALSE","FALSE","FALSE","HIGH",452
+"62",91,"8:03","Good","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",483
+"63",74,"6:49","Good","Drank coffee",66,"FALSE","FALSE","FALSE","LOW",409
+"64",75,"8:22","Good","Drank coffee:Drank tea",65,"FALSE","FALSE","FALSE","HIGH",502
+"65",84,"8:07","Good","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",487
+"66",76,"7:22","Good","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",442
+"67",92,"8:03","Good","Drank tea:Worked out",54,"TRUE","FALSE","FALSE","LOW",483
+"68",82,"6:57","Good","Drank coffee:Worked out",64,"TRUE","FALSE","FALSE","LOW",417
+"69",84,"7:32","Good","Drank coffee:Drank tea:Worked out",55,"TRUE","FALSE","FALSE","HIGH",452
+"70",95,"8:17","Good","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",497
+"71",79,"8:53","Good","Drank coffee:Drank tea",55,"FALSE","FALSE","FALSE","HIGH",533
+"72",100,"9:01","Good","Drank tea",51,"FALSE","FALSE","FALSE","LOW",541
+"73",81,"6:52","Good","Drank tea",52,"FALSE","FALSE","FALSE","LOW",412
+"74",80,"7:27","Good","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",447
+"75",85,"7:50","Good","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",470
+"76",97,"7:36","Good","Drank coffee:Drank tea",52,"FALSE","FALSE","FALSE","HIGH",456
+"77",84,"7:36","Good","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",456
+"78",78,"7:25","Good","Drank tea:Worked out",57,"TRUE","FALSE","FALSE","LOW",445
+"79",81,"7:01","Good","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",421
+"80",82,"6:59","Good","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",419
+"81",59,"7:32","Good","Drank coffee:Drank tea:Stressful day:Worked out",53,"TRUE","TRUE","FALSE","HIGH",452
+"82",77,"7:40","Good","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",460
+"83",77,"7:39","Good","Drank coffee:Drank tea:Stressful day",67,"FALSE","TRUE","FALSE","HIGH",459
+"84",87,"7:26","Good","Drank coffee:Drank tea:Stressful day:Worked out",58,"TRUE","TRUE","FALSE","HIGH",446
+"85",100,"9:00","Good","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",540
+"86",70,"7:07","Good","Ate late:Drank coffee:Drank tea",64,"FALSE","FALSE","TRUE","HIGH",427
+"87",77,"7:21","Good","Drank tea:Worked out",59,"TRUE","FALSE","FALSE","LOW",441
+"88",53,"7:18","Good","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",438
+"89",77,"6:52","Good","Drank coffee:Drank tea:Stressful day",60,"FALSE","TRUE","FALSE","HIGH",412
+"90",65,"7:46","Good","Drank coffee:Worked out",91,"TRUE","FALSE","FALSE","LOW",466
+"91",83,"7:54","Good","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",474
+"92",50,"7:34","Good","Ate late:Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","TRUE","HIGH",454
+"93",89,"7:34","Good","Drank tea:Worked out",54,"TRUE","FALSE","FALSE","LOW",454
+"94",61,"5:03","Good","Drank coffee:Drank tea:Stressful day:Worked out",75,"TRUE","TRUE","FALSE","HIGH",303
+"95",66,"6:48","Good","Drank coffee:Drank tea:Worked out",50,"TRUE","FALSE","FALSE","HIGH",408
+"96",75,"7:03","Good","Drank tea:Worked out",55,"TRUE","FALSE","FALSE","LOW",423
+"97",72,"6:47","Good","Drank tea:Worked out",59,"TRUE","FALSE","FALSE","LOW",407
+"98",79,"7:28","Good","Drank coffee:Drank tea",51,"FALSE","FALSE","FALSE","HIGH",448
+"99",93,"10:46","Good","Drank tea:Stressful day",59,"FALSE","TRUE","FALSE","LOW",646
+"100",91,"7:41","Good","",59,"NA","NA","NA","NA",461
+"101",59,"7:02","Good","Drank tea:Worked out",62,"TRUE","FALSE","FALSE","LOW",422
+"102",74,"6:38","Good","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",398
+"103",73,"7:33","Good","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",453
+"104",67,"7:47","Good","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",467
+"105",85,"7:23","Good","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",443
+"106",69,"6:56","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",416
+"107",81,"7:49","Good","Drank coffee:Drank tea:Worked out",52,"TRUE","FALSE","FALSE","HIGH",469
+"108",72,"7:03","Good","Drank coffee",76,"FALSE","FALSE","FALSE","LOW",423
+"109",76,"7:59","Good","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",479
+"110",78,"7:00","Good","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",420
+"111",70,"5:25","Bad","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",325
+"112",23,"1:55","Good","",57,"NA","NA","NA","NA",115
+"113",75,"7:39","Good","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",459
+"114",69,"7:19","Good","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",439
+"115",83,"7:54","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",474
+"116",92,"9:04","Good","Drank tea:Stressful day:Worked out",68,"TRUE","TRUE","FALSE","LOW",544
+"117",74,"7:25","Good","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",445
+"118",81,"7:34","Good","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",454
+"119",88,"7:48","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",468
+"120",69,"7:59","Good","Drank coffee:Drank tea:Stressful day:Worked out",59,"TRUE","TRUE","FALSE","HIGH",479
+"121",63,"7:31","Good","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",451
+"122",71,"6:20","Good","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",380
+"123",78,"7:13","Good","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",433
+"124",76,"6:48","Good","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",408
+"125",10,"0:46","Good","",62,"NA","NA","NA","NA",46
+"126",82,"7:43","Good","Drank coffee:Stressful day:Worked out",58,"TRUE","TRUE","FALSE","LOW",463
+"127",98,"9:31","Good","Drank coffee:Stressful day",69,"FALSE","TRUE","FALSE","LOW",571
+"128",69,"8:31","Good","Drank coffee",74,"FALSE","FALSE","FALSE","LOW",511
+"129",68,"7:03","Good","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",423
+"130",79,"7:42","Good","Drank coffee:Drank tea:Worked out",67,"TRUE","FALSE","FALSE","HIGH",462
+"131",86,"8:14","Good","Drank coffee:Stressful day:Worked out",64,"TRUE","TRUE","FALSE","LOW",494
+"132",93,"7:50","Good","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",470
+"133",68,"8:07","Good","Drank coffee:Drank tea:Stressful day:Worked out",58,"TRUE","TRUE","FALSE","HIGH",487
+"134",71,"6:34","Good","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",394
+"135",88,"8:00","Good","Drank coffee:Worked out",64,"TRUE","FALSE","FALSE","LOW",480
+"136",77,"6:49","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",409
+"137",97,"9:06","Good","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",546
+"138",3,"0:15","Ok","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",15
+"139",88,"6:59","Good","Drank coffee:Worked out",68,"TRUE","FALSE","FALSE","LOW",419
+"140",71,"7:14","Good","Drank coffee:Stressful day:Worked out",61,"TRUE","TRUE","FALSE","LOW",434
+"141",81,"7:38","Good","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",458
+"142",78,"7:19","Good","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",439
+"143",97,"7:37","Good","Drank coffee:Worked out",54,"TRUE","FALSE","FALSE","LOW",457
+"144",65,"5:02","Good","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",302
+"145",72,"8:58","Good","Drank coffee:Drank tea:Worked out",50,"TRUE","FALSE","FALSE","HIGH",538
+"146",84,"7:46","Good","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",466
+"147",58,"7:00","Good","Drank coffee",56,"FALSE","FALSE","FALSE","LOW",420
+"148",85,"7:14","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",434
+"149",90,"8:12","Good","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",492
+"150",79,"8:12","Good","Drank coffee:Worked out",51,"TRUE","FALSE","FALSE","LOW",492
+"151",69,"7:23","Good","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",443
+"152",88,"8:07","Good","Drank coffee:Stressful day",57,"FALSE","TRUE","FALSE","LOW",487
+"153",90,"7:49","Good","Drank coffee",52,"FALSE","FALSE","FALSE","LOW",469
+"154",83,"7:30","Good","Ate late:Drank coffee:Drank tea",52,"FALSE","FALSE","TRUE","HIGH",450
+"155",67,"7:48","Good","Drank coffee",62,"FALSE","FALSE","FALSE","LOW",468
+"156",90,"8:30","Good","Drank coffee:Stressful day",62,"FALSE","TRUE","FALSE","LOW",510
+"157",93,"8:26","Ok","",60,"NA","NA","NA","NA",506
+"158",85,"7:59","Good","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",479
+"159",84,"8:00","Good","Drank coffee",66,"FALSE","FALSE","FALSE","LOW",480
+"160",77,"7:46","Good","Drank coffee",61,"FALSE","FALSE","FALSE","LOW",466
+"161",85,"7:59","Good","Drank tea",65,"FALSE","FALSE","FALSE","LOW",479
+"162",77,"7:33","Good","Drank coffee",57,"FALSE","FALSE","FALSE","LOW",453
+"163",87,"8:04","Good","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",484
+"164",84,"7:27","Good","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",447
+"165",86,"8:01","Good","Drank tea:Worked out",61,"TRUE","FALSE","FALSE","LOW",481
+"166",83,"7:29","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",449
+"167",77,"6:46","Good","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",406
+"168",81,"7:35","Good","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",455
+"169",81,"7:47","Good","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",467
+"170",83,"7:56","Good","Drank coffee:Stressful day:Worked out",60,"TRUE","TRUE","FALSE","LOW",476
+"171",70,"7:40","Good","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",460
+"172",80,"8:20","Good","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",500
+"173",60,"7:22","Good","Drank coffee:Drank tea:Worked out",56,"TRUE","FALSE","FALSE","HIGH",442
+"174",55,"6:23","Good","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",383
+"175",91,"8:47","Good","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",527
+"176",79,"8:08","Good","Drank coffee:Drank tea:Worked out",55,"TRUE","FALSE","FALSE","HIGH",488
+"177",81,"8:41","Good","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",521
+"178",77,"7:29","Good","Drank coffee:Drank tea:Worked out",49,"TRUE","FALSE","FALSE","HIGH",449
+"179",83,"7:22","Good","Ate late:Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","TRUE","HIGH",442
+"180",82,"8:02","Good","Drank tea",61,"FALSE","FALSE","FALSE","LOW",482
+"181",90,"8:02","Good","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",482
+"182",89,"7:25","Good","Ate late:Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","TRUE","HIGH",445
+"183",62,"6:16","Good","Drank coffee:Drank tea:Worked out",55,"TRUE","FALSE","FALSE","HIGH",376
+"184",69,"7:17","Good","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",437
+"185",100,"8:31","Good","Drank coffee:Stressful day",50,"FALSE","TRUE","FALSE","LOW",511
+"186",74,"8:01","Good","Ate late:Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","TRUE","HIGH",481
+"187",59,"6:40","Good","Drank coffee:Worked out",61,"TRUE","FALSE","FALSE","LOW",400
+"188",13,"1:00","Good","",64,"NA","NA","NA","NA",60
+"189",68,"7:40","Good","Drank tea:Worked out",65,"TRUE","FALSE","FALSE","LOW",460
+"190",67,"8:08","Good","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",488
+"191",57,"6:51","Good","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",411
+"192",67,"8:27","Ok","Drank coffee",61,"FALSE","FALSE","FALSE","LOW",507
+"193",88,"8:42","Ok","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",522
+"194",77,"7:39","Good","Drank coffee:Drank tea",53,"FALSE","FALSE","FALSE","HIGH",459
+"195",80,"7:44","Good","Drank coffee:Drank tea:Worked out",70,"TRUE","FALSE","FALSE","HIGH",464
+"196",77,"7:40","Good","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",460
+"197",81,"7:55","Good","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",475
+"198",77,"6:55","Good","Drank coffee:Drank tea",65,"FALSE","FALSE","FALSE","HIGH",415
+"199",78,"8:01","Ok","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",481
+"200",83,"7:51","Ok","Drank tea:Worked out",53,"TRUE","FALSE","FALSE","LOW",471
+"201",81,"7:40","Ok","Drank tea:Worked out",57,"TRUE","FALSE","FALSE","LOW",460
+"202",50,"6:48","Good","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",408
+"203",83,"8:09","Ok","Drank coffee:Drank tea:Worked out",55,"TRUE","FALSE","FALSE","HIGH",489
+"204",75,"7:23","Ok","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",443
+"205",65,"7:11","Ok","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",431
+"206",77,"7:52","Ok","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",472
+"207",93,"7:54","Good","Drank coffee:Drank tea:Worked out",98,"TRUE","FALSE","FALSE","HIGH",474
+"208",69,"6:52","Good","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",412
+"209",88,"7:41","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",461
+"210",83,"7:32","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",452
+"211",72,"7:23","Good","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",443
+"212",96,"8:46","Good","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",526
+"213",72,"8:13","Good","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",493
+"214",80,"7:23","Good","Ate late:Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","TRUE","HIGH",443
+"215",73,"6:50","Good","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",410
+"216",83,"7:33","Good","Drank tea",57,"FALSE","FALSE","FALSE","LOW",453
+"217",74,"6:44","Good","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",404
+"218",87,"7:57","Good","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",477
+"219",69,"6:54","Good","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",414
+"220",81,"7:55","Good","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",475
+"221",58,"6:25","Good","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",385
+"222",68,"7:59","Good","Drank tea",58,"FALSE","FALSE","FALSE","LOW",479
+"223",64,"8:55","Good","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",535
+"224",84,"7:17","Good","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",437
+"225",75,"6:51","Good","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",411
+"226",70,"6:09","Good","Ate late:Drank coffee:Drank tea",64,"FALSE","FALSE","TRUE","HIGH",369
+"227",86,"7:20","Good","Drank coffee:Drank tea",68,"FALSE","FALSE","FALSE","HIGH",440
+"228",86,"7:40","Good","Drank tea:Stressful day:Worked out",61,"TRUE","TRUE","FALSE","LOW",460
+"229",79,"7:28","Good","Drank coffee:Drank tea:Stressful day:Worked out",58,"TRUE","TRUE","FALSE","HIGH",448
+"230",93,"8:13","Good","Drank tea:Stressful day:Worked out",67,"TRUE","TRUE","FALSE","LOW",493
+"231",77,"8:14","Good","Drank coffee",62,"FALSE","FALSE","FALSE","LOW",494
+"232",80,"8:02","Good","Drank coffee",52,"FALSE","FALSE","FALSE","LOW",482
+"233",75,"7:37","Good","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",457
+"234",84,"7:20","Good","Drank coffee:Drank tea:Stressful day",63,"FALSE","TRUE","FALSE","HIGH",440
+"235",100,"8:37","Good","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",517
+"236",72,"8:00","Ok","Drank coffee:Drank tea:Worked out",56,"TRUE","FALSE","FALSE","HIGH",480
+"237",80,"7:23","Ok","Drank coffee:Worked out",64,"TRUE","FALSE","FALSE","LOW",443
+"238",82,"8:01","Good","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",481
+"239",79,"7:27","Good","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",447
+"240",76,"8:16","Ok","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",496
+"241",79,"8:33","Ok","Drank coffee:Drank tea",71,"FALSE","FALSE","FALSE","HIGH",513
+"242",85,"8:24","Good","Drank coffee:Drank tea",65,"FALSE","FALSE","FALSE","HIGH",504
+"243",69,"7:51","Good","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",471
+"244",74,"7:28","Ok","Drank coffee:Drank tea:Stressful day",61,"FALSE","TRUE","FALSE","HIGH",448
+"245",66,"8:01","Ok","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",481
+"246",72,"7:35","Ok","Ate late:Drank coffee:Drank tea:Stressful day",63,"FALSE","TRUE","TRUE","HIGH",455
+"247",73,"7:17","Ok","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",437
+"248",76,"7:29","Ok","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",449
+"249",78,"7:38","NA","Ate late:Drank coffee:Drank tea",58,"FALSE","FALSE","TRUE","HIGH",458
+"250",75,"7:48","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",468
+"251",77,"9:15","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",555
+"252",79,"8:50","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",530
+"253",79,"9:57","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",597
+"254",85,"8:23","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",503
+"255",88,"8:10","NA","Drank coffee",62,"FALSE","FALSE","FALSE","LOW",490
+"256",83,"7:29","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",449
+"257",84,"7:20","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",440
+"258",76,"7:15","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",435
+"259",88,"8:19","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",499
+"260",78,"7:20","NA","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",440
+"261",82,"7:25","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",445
+"262",72,"7:33","NA","Drank coffee:Worked out",64,"TRUE","FALSE","FALSE","LOW",453
+"263",79,"7:26","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",446
+"264",74,"8:35","NA","Drank coffee:Stressful day:Worked out",64,"TRUE","TRUE","FALSE","LOW",515
+"265",84,"7:50","NA","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",470
+"266",91,"8:40","NA","Drank tea",61,"FALSE","FALSE","FALSE","LOW",520
+"267",68,"7:01","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",421
+"268",77,"7:56","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",476
+"269",66,"7:33","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",453
+"270",38,"5:30","NA","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",330
+"271",84,"7:45","NA","Drank coffee:Stressful day",63,"FALSE","TRUE","FALSE","LOW",465
+"272",76,"7:18","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",438
+"273",70,"7:12","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",432
+"274",90,"8:51","NA","Drank coffee:Stressful day:Worked out",62,"TRUE","TRUE","FALSE","LOW",531
+"275",77,"7:39","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",459
+"276",69,"8:28","NA","Drank coffee",57,"FALSE","FALSE","FALSE","LOW",508
+"277",85,"8:19","NA","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",499
+"278",94,"8:06","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",486
+"279",88,"7:44","NA","Drank tea:Worked out",58,"TRUE","FALSE","FALSE","LOW",464
+"280",68,"6:20","NA","Drank tea:Worked out",61,"TRUE","FALSE","FALSE","LOW",380
+"281",92,"8:17","NA","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",497
+"282",64,"7:25","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",445
+"283",78,"8:26","NA","Drank tea:Worked out",59,"TRUE","FALSE","FALSE","LOW",506
+"284",70,"6:28","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",388
+"285",95,"8:06","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",486
+"286",90,"8:16","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",496
+"287",98,"8:11","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",491
+"288",70,"7:11","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",431
+"289",75,"7:32","NA","Drank tea:Worked out",63,"TRUE","FALSE","FALSE","LOW",452
+"290",91,"8:44","NA","Drank tea:Worked out",57,"TRUE","FALSE","FALSE","LOW",524
+"291",79,"7:09","NA","Drank tea",64,"FALSE","FALSE","FALSE","LOW",429
+"292",92,"7:58","NA","Drank tea:Worked out",57,"TRUE","FALSE","FALSE","LOW",478
+"293",69,"6:17","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",377
+"294",83,"7:07","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",427
+"295",82,"6:53","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",413
+"296",79,"7:29","NA","Drank tea:Worked out",62,"TRUE","FALSE","FALSE","LOW",449
+"297",85,"7:43","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",463
+"298",90,"8:39","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",519
+"299",98,"8:22","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",502
+"300",87,"9:30","NA","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",570
+"301",80,"9:13","NA","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",553
+"302",80,"8:54","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",534
+"303",80,"8:56","NA","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",536
+"304",65,"7:13","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",433
+"305",82,"8:01","NA","Drank coffee",61,"FALSE","FALSE","FALSE","LOW",481
+"306",75,"6:56","NA","Drank coffee:Stressful day:Worked out",62,"TRUE","TRUE","FALSE","LOW",416
+"307",66,"7:13","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",433
+"308",58,"7:26","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",446
+"309",89,"7:42","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",462
+"310",86,"9:47","NA","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",587
+"311",67,"8:39","NA","Drank coffee",57,"FALSE","FALSE","FALSE","LOW",519
+"312",62,"9:05","NA","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",545
+"313",81,"9:11","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",551
+"314",73,"6:55","NA","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",415
+"315",81,"8:00","NA","Ate late:Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","TRUE","HIGH",480
+"316",53,"6:30","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",390
+"317",94,"9:00","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",540
+"318",67,"7:12","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",432
+"319",82,"7:19","NA","Drank coffee:Drank tea:Stressful day:Worked out",61,"TRUE","TRUE","FALSE","HIGH",439
+"320",85,"7:33","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",453
+"321",77,"7:45","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",465
+"322",94,"8:41","NA","Drank coffee:Drank tea:Stressful day:Worked out",60,"TRUE","TRUE","FALSE","HIGH",521
+"323",81,"8:47","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",527
+"324",75,"8:52","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",532
+"325",79,"8:59","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",539
+"326",81,"8:09","NA","Ate late:Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","TRUE","HIGH",489
+"327",79,"7:40","NA","",57,"NA","NA","NA","NA",460
+"328",9,"0:42","NA","",59,"NA","NA","NA","NA",42
+"329",65,"7:07","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",427
+"330",81,"7:43","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",463
+"331",87,"7:31","NA","Ate late:Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","TRUE","HIGH",451
+"332",74,"7:32","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",452
+"333",92,"8:01","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",481
+"334",95,"7:53","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",473
+"335",81,"7:09","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",429
+"336",95,"8:47","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",527
+"337",85,"8:29","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",509
+"338",79,"8:01","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",481
+"339",83,"8:13","NA","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",493
+"340",89,"7:54","NA","Ate late:Drank coffee",60,"FALSE","FALSE","TRUE","LOW",474
+"341",87,"8:00","NA","Drank coffee:Drank tea:Stressful day:Worked out",62,"TRUE","TRUE","FALSE","HIGH",480
+"342",93,"7:51","NA","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",471
+"343",74,"6:36","NA","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",396
+"344",83,"7:30","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",450
+"345",74,"6:20","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",380
+"346",80,"7:41","NA","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",461
+"347",83,"6:59","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",419
+"348",100,"8:45","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",525
+"349",81,"8:33","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",513
+"350",85,"8:40","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",520
+"351",83,"9:16","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",556
+"352",79,"7:14","NA","Drank coffee:Stressful day",64,"FALSE","TRUE","FALSE","LOW",434
+"353",76,"6:30","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",390
+"354",91,"8:19","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",499
+"355",75,"6:55","NA","Drank coffee",62,"FALSE","FALSE","FALSE","LOW",415
+"356",90,"7:35","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",455
+"357",88,"8:09","NA","Drank coffee:Worked out",61,"TRUE","FALSE","FALSE","LOW",489
+"358",89,"8:11","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",491
+"359",72,"6:56","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",416
+"360",100,"8:36","NA","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",516
+"361",72,"8:00","NA","Drank coffee:Stressful day",63,"FALSE","TRUE","FALSE","LOW",480
+"362",70,"7:28","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",448
+"363",67,"6:46","NA","Drank coffee:Worked out",61,"TRUE","FALSE","FALSE","LOW",406
+"364",65,"6:39","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",399
+"365",71,"7:18","NA","Worked out",61,"TRUE","FALSE","FALSE","LOW",438
+"366",70,"6:05","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",365
+"367",77,"6:59","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",419
+"368",76,"8:20","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",500
+"369",87,"8:27","NA","Ate late:Drank coffee:Worked out",60,"TRUE","FALSE","TRUE","LOW",507
+"370",93,"9:58","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",598
+"371",77,"7:39","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",459
+"372",82,"8:22","NA","Drank tea:Worked out",63,"TRUE","FALSE","FALSE","LOW",502
+"373",68,"7:58","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",478
+"374",64,"5:38","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",338
+"375",83,"7:54","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",474
+"376",79,"7:54","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",474
+"377",74,"6:59","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",419
+"378",83,"7:15","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",435
+"379",83,"7:29","NA","Drank coffee:Worked out",64,"TRUE","FALSE","FALSE","LOW",449
+"380",82,"7:41","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",461
+"381",86,"8:00","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",480
+"382",64,"8:14","NA","Drank coffee",62,"FALSE","FALSE","FALSE","LOW",494
+"383",62,"6:58","NA","Drank coffee:Stressful day:Worked out",61,"TRUE","TRUE","FALSE","LOW",418
+"384",77,"7:25","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",445
+"385",83,"7:23","NA","Drank coffee:Stressful day:Worked out",57,"TRUE","TRUE","FALSE","LOW",443
+"386",90,"8:00","NA","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",480
+"387",86,"8:12","NA","",63,"NA","NA","NA","NA",492
+"388",85,"8:11","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",491
+"389",75,"7:16","NA","Drank coffee:Stressful day:Worked out",62,"TRUE","TRUE","FALSE","LOW",436
+"390",92,"8:02","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",482
+"391",96,"8:12","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",492
+"392",85,"7:59","NA","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",479
+"393",99,"8:50","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",530
+"394",96,"8:13","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",493
+"395",78,"7:02","NA","Drank coffee:Worked out",61,"TRUE","FALSE","FALSE","LOW",422
+"396",84,"7:35","NA","Drank coffee:Stressful day:Worked out",58,"TRUE","TRUE","FALSE","LOW",455
+"397",87,"7:47","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",467
+"398",98,"8:10","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",490
+"399",76,"7:37","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",457
+"400",77,"7:08","NA","Drank coffee:Stressful day:Worked out",62,"TRUE","TRUE","FALSE","LOW",428
+"401",77,"7:14","NA","Drank coffee:Worked out",64,"TRUE","FALSE","FALSE","LOW",434
+"402",82,"7:30","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",450
+"403",87,"7:52","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",472
+"404",99,"9:35","NA","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",575
+"405",74,"8:09","NA","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",489
+"406",81,"7:28","NA","Drank coffee:Worked out",64,"TRUE","FALSE","FALSE","LOW",448
+"407",86,"8:07","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",487
+"408",84,"7:07","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",427
+"409",95,"8:21","NA","Drank coffee:Stressful day:Worked out",63,"TRUE","TRUE","FALSE","LOW",501
+"410",35,"5:10","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",310
+"411",96,"7:44","NA","Drank coffee:Drank tea:Stressful day",64,"FALSE","TRUE","FALSE","HIGH",464
+"412",78,"7:33","NA","Ate late:Drank coffee:Worked out",61,"TRUE","FALSE","TRUE","LOW",453
+"413",36,"8:24","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",504
+"414",56,"10:28","NA","Drank coffee",64,"FALSE","FALSE","FALSE","LOW",628
+"415",52,"8:11","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",491
+"416",35,"8:09","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",489
+"417",51,"7:30","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",450
+"418",54,"8:19","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",499
+"419",55,"8:13","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",493
+"420",46,"7:37","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",457
+"421",48,"8:33","NA","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",513
+"422",36,"7:48","NA","Drank coffee",61,"FALSE","FALSE","FALSE","LOW",468
+"423",40,"8:09","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",489
+"424",49,"7:59","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",479
+"425",49,"7:47","NA","Drank coffee:Worked out",61,"TRUE","FALSE","FALSE","LOW",467
+"426",54,"6:50","NA","Drank coffee:Worked out",58,"TRUE","FALSE","FALSE","LOW",410
+"427",67,"9:09","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",549
+"428",61,"8:32","NA","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",512
+"429",41,"9:20","NA","Drank tea:Worked out",59,"TRUE","FALSE","FALSE","LOW",560
+"430",70,"8:10","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",490
+"431",69,"7:50","NA","Drank tea:Worked out",62,"TRUE","FALSE","FALSE","LOW",470
+"432",61,"7:41","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",461
+"433",58,"6:21","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",381
+"434",33,"7:17","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",437
+"435",60,"7:14","NA","Drank coffee",62,"FALSE","FALSE","FALSE","LOW",434
+"436",67,"7:34","NA","Drank tea:Worked out",61,"TRUE","FALSE","FALSE","LOW",454
+"437",59,"8:12","NA","Drank tea:Worked out",63,"TRUE","FALSE","FALSE","LOW",492
+"438",65,"7:53","NA","Drank tea:Worked out",63,"TRUE","FALSE","FALSE","LOW",473
+"439",70,"9:56","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",596
+"440",57,"7:55","NA","Drank coffee:Worked out",61,"TRUE","FALSE","FALSE","LOW",475
+"441",60,"8:07","NA","Drank tea:Worked out",58,"TRUE","FALSE","FALSE","LOW",487
+"442",57,"7:36","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",456
+"443",60,"7:59","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",479
+"444",70,"8:29","NA","Drank tea:Worked out",62,"TRUE","FALSE","FALSE","LOW",509
+"445",58,"7:31","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",451
+"446",55,"8:03","NA","Drank tea:Stressful day:Worked out",57,"TRUE","TRUE","FALSE","LOW",483
+"447",55,"7:44","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",464
+"448",60,"7:09","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",429
+"449",53,"7:29","NA","Drank coffee:Worked out",63,"TRUE","FALSE","FALSE","LOW",449
+"450",67,"8:20","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",500
+"451",55,"8:26","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",506
+"452",54,"6:56","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",416
+"453",62,"7:38","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",458
+"454",66,"8:28","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",508
+"455",54,"7:48","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",468
+"456",52,"6:33","NA","Drank tea:Worked out",59,"TRUE","FALSE","FALSE","LOW",393
+"457",71,"8:02","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",482
+"458",59,"7:49","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",469
+"459",56,"7:45","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",465
+"460",65,"7:16","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",436
+"461",61,"8:04","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",484
+"462",71,"8:30","NA","Drank coffee",61,"FALSE","FALSE","FALSE","LOW",510
+"463",50,"7:27","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",447
+"464",63,"7:34","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",454
+"465",67,"7:35","NA","Drank coffee:Stressful day:Worked out",64,"TRUE","TRUE","FALSE","LOW",455
+"466",64,"7:35","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",455
+"467",67,"8:19","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",499
+"468",54,"5:39","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",339
+"469",81,"8:40","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",520
+"470",66,"8:01","NA","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",481
+"471",65,"7:21","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",441
+"472",69,"7:46","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",466
+"473",72,"7:30","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",450
+"474",63,"7:32","NA","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",452
+"475",66,"7:34","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",454
+"476",68,"7:23","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",443
+"477",68,"7:37","NA","Drank tea:Stressful day:Worked out",61,"TRUE","TRUE","FALSE","LOW",457
+"478",72,"7:38","NA","Drank coffee:Drank tea:Stressful day",59,"FALSE","TRUE","FALSE","HIGH",458
+"479",52,"6:01","NA","Drank coffee:Drank tea:Stressful day",59,"FALSE","TRUE","FALSE","HIGH",361
+"480",80,"9:08","NA","Drank coffee:Stressful day",58,"FALSE","TRUE","FALSE","LOW",548
+"481",65,"7:49","NA","Drank coffee",57,"FALSE","FALSE","FALSE","LOW",469
+"482",70,"7:35","NA","Drank tea:Worked out",58,"TRUE","FALSE","FALSE","LOW",455
+"483",62,"6:56","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",416
+"484",65,"7:17","NA","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",437
+"485",56,"7:20","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",440
+"486",74,"7:51","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",471
+"487",72,"9:20","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",560
+"488",70,"7:56","NA","Drank coffee",61,"FALSE","FALSE","FALSE","LOW",476
+"489",73,"7:44","NA","Drank tea",61,"FALSE","FALSE","FALSE","LOW",464
+"490",70,"7:36","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",456
+"491",81,"8:05","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",485
+"492",80,"8:01","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",481
+"493",68,"7:01","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",421
+"494",80,"8:13","NA","Drank tea:Worked out",59,"TRUE","FALSE","FALSE","LOW",493
+"495",73,"7:25","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",445
+"496",88,"8:39","NA","Drank tea:Worked out",63,"TRUE","FALSE","FALSE","LOW",519
+"497",89,"8:30","NA","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",510
+"498",75,"8:16","NA","Drank tea",63,"FALSE","FALSE","FALSE","LOW",496
+"499",83,"7:50","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",470
+"500",71,"6:57","NA","Drank tea",60,"FALSE","FALSE","FALSE","LOW",417
+"501",89,"8:01","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",481
+"502",17,"1:24","NA","",59,"NA","NA","NA","NA",84
+"503",71,"7:31","NA","Drank tea",60,"FALSE","FALSE","FALSE","LOW",451
+"504",89,"8:02","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",482
+"505",78,"8:00","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",480
+"506",79,"7:55","NA","Drank tea:Worked out",58,"TRUE","FALSE","FALSE","LOW",475
+"507",72,"7:32","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",452
+"508",82,"7:32","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",452
+"509",69,"7:15","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",435
+"510",79,"9:23","NA","Drank tea",63,"FALSE","FALSE","FALSE","LOW",563
+"511",82,"7:19","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",439
+"512",85,"8:01","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",481
+"513",81,"7:38","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",458
+"514",83,"8:02","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",482
+"515",74,"8:20","NA","Drank tea",59,"FALSE","FALSE","FALSE","LOW",500
+"516",75,"7:31","NA","Drank tea",60,"FALSE","FALSE","FALSE","LOW",451
+"517",78,"7:11","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",431
+"518",96,"8:46","NA","Drank tea",59,"FALSE","FALSE","FALSE","LOW",526
+"519",84,"7:20","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",440
+"520",86,"7:33","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",453
+"521",74,"8:00","NA","Drank coffee:Drank tea:Stressful day",57,"FALSE","TRUE","FALSE","HIGH",480
+"522",69,"8:05","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",485
+"523",92,"9:00","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",540
+"524",73,"6:34","NA","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",394
+"525",17,"1:19","NA","",58,"NA","NA","NA","NA",79
+"526",87,"8:09","NA","Drank tea",64,"FALSE","FALSE","FALSE","LOW",489
+"527",87,"7:29","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",449
+"528",93,"8:02","NA","Drank tea:Worked out",57,"TRUE","FALSE","FALSE","LOW",482
+"529",90,"9:29","NA","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",569
+"530",79,"7:22","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",442
+"531",84,"8:16","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",496
+"532",65,"7:57","NA","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",477
+"533",84,"7:54","NA","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",474
+"534",73,"7:07","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",427
+"535",64,"7:17","NA","Ate late:Drank coffee:Drank tea",64,"FALSE","FALSE","TRUE","HIGH",437
+"536",89,"7:54","NA","Drank tea:Worked out",59,"TRUE","FALSE","FALSE","LOW",474
+"537",74,"7:32","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",452
+"538",71,"7:12","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",432
+"539",24,"2:08","NA","",61,"NA","NA","NA","NA",128
+"540",57,"6:37","NA","Drank tea",63,"FALSE","FALSE","FALSE","LOW",397
+"541",76,"8:09","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",489
+"542",92,"8:15","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",495
+"543",78,"8:38","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",518
+"544",96,"8:29","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",509
+"545",64,"8:22","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",502
+"546",89,"7:35","NA","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",455
+"547",84,"7:17","NA","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",437
+"548",85,"8:15","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",495
+"549",54,"6:45","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",405
+"550",21,"1:42","NA","",60,"NA","NA","NA","NA",102
+"551",91,"8:02","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",482
+"552",63,"6:34","NA","Drank coffee",58,"FALSE","FALSE","FALSE","LOW",394
+"553",78,"7:36","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",456
+"554",74,"7:29","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",449
+"555",85,"8:11","NA","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",491
+"556",80,"7:09","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",429
+"557",68,"7:35","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",455
+"558",75,"7:36","NA","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",456
+"559",71,"7:50","NA","Ate late:Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","TRUE","HIGH",470
+"560",71,"6:55","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",415
+"561",68,"6:40","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",400
+"562",62,"6:28","NA","Drank coffee:Drank tea:Stressful day:Worked out",64,"TRUE","TRUE","FALSE","HIGH",388
+"563",21,"1:36","NA","",60,"NA","NA","NA","NA",96
+"564",100,"8:30","NA","Drank tea",59,"FALSE","FALSE","FALSE","LOW",510
+"565",63,"9:16","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",556
+"566",74,"7:10","NA","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",430
+"567",12,"1:33","NA","",64,"NA","NA","NA","NA",93
+"568",59,"6:55","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",415
+"569",44,"7:48","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",468
+"570",83,"7:58","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",478
+"571",93,"8:20","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",500
+"572",79,"7:48","NA","Drank tea",61,"FALSE","FALSE","FALSE","LOW",468
+"573",66,"8:04","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",484
+"574",76,"7:43","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",463
+"575",72,"7:11","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",431
+"576",83,"7:31","NA","Drank tea",59,"FALSE","FALSE","FALSE","LOW",451
+"577",81,"7:19","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",439
+"578",12,"0:55","NA","",58,"NA","NA","NA","NA",55
+"579",80,"7:06","NA","Ate late:Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","TRUE","HIGH",426
+"580",77,"7:07","NA","Drank tea",57,"FALSE","FALSE","FALSE","LOW",427
+"581",81,"7:34","NA","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",454
+"582",87,"8:01","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",481
+"583",12,"0:57","NA","",64,"NA","NA","NA","NA",57
+"584",85,"8:07","NA","Drank coffee:Drank tea",62,"FALSE","FALSE","FALSE","HIGH",487
+"585",81,"7:55","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",475
+"586",96,"8:16","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",496
+"587",93,"8:07","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",487
+"588",97,"8:21","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",501
+"589",90,"8:01","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",481
+"590",85,"9:05","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",545
+"591",71,"7:13","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",433
+"592",86,"8:14","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",494
+"593",80,"7:53","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",473
+"594",81,"7:42","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",462
+"595",89,"8:17","NA","Drank tea:Worked out",63,"TRUE","FALSE","FALSE","LOW",497
+"596",71,"7:44","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",464
+"597",95,"8:04","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",484
+"598",99,"9:07","NA","Drank coffee:Drank tea",64,"FALSE","FALSE","FALSE","HIGH",547
+"599",89,"8:54","NA","Drank tea",60,"FALSE","FALSE","FALSE","LOW",534
+"600",79,"7:18","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",438
+"601",88,"7:41","NA","Drank coffee:Drank tea",60,"FALSE","FALSE","FALSE","HIGH",461
+"602",79,"7:01","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",421
+"603",72,"7:12","NA","Drank tea:Worked out",60,"TRUE","FALSE","FALSE","LOW",432
+"604",76,"7:21","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",441
+"605",100,"7:56","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",476
+"606",83,"7:29","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",449
+"607",78,"8:22","NA","Drank tea:Worked out",58,"TRUE","FALSE","FALSE","LOW",502
+"608",78,"7:11","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",431
+"609",79,"7:34","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",454
+"610",93,"8:51","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",531
+"611",80,"6:27","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",387
+"612",95,"9:54","NA","Drank tea",63,"FALSE","FALSE","FALSE","LOW",594
+"613",90,"8:19","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",499
+"614",92,"8:03","NA","Drank tea",62,"FALSE","FALSE","FALSE","LOW",483
+"615",81,"8:09","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",489
+"616",73,"6:35","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",395
+"617",68,"7:07","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",427
+"618",75,"7:29","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",449
+"619",65,"5:40","NA","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",340
+"620",70,"7:19","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",439
+"621",6,"0:27","NA","",59,"NA","NA","NA","NA",27
+"622",67,"7:16","NA","",59,"NA","NA","NA","NA",436
+"623",74,"9:11","NA","Drank tea",63,"FALSE","FALSE","FALSE","LOW",551
+"624",83,"8:12","NA","Drank coffee:Drank tea",61,"FALSE","FALSE","FALSE","HIGH",492
+"625",88,"10:07","NA","Drank tea",63,"FALSE","FALSE","FALSE","LOW",607
+"626",73,"7:42","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",462
+"627",83,"7:44","NA","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",464
+"628",66,"7:41","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",461
+"629",59,"7:36","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",456
+"630",75,"7:51","NA","",59,"NA","NA","NA","NA",471
+"631",75,"7:26","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",446
+"632",83,"9:09","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",549
+"633",86,"7:44","NA","Drank coffee:Drank tea",63,"FALSE","FALSE","FALSE","HIGH",464
+"634",75,"7:59","NA","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",479
+"635",72,"7:27","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",447
+"636",85,"8:00","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",480
+"637",68,"8:06","NA","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",486
+"638",64,"7:51","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",471
+"639",90,"8:37","NA","Drank coffee:Drank tea:Stressful day",61,"FALSE","TRUE","FALSE","HIGH",517
+"640",74,"7:43","NA","Drank coffee:Drank tea",58,"FALSE","FALSE","FALSE","HIGH",463
+"641",72,"7:47","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",467
+"642",74,"8:16","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",496
+"643",77,"8:16","NA","Drank coffee:Drank tea:Worked out",58,"TRUE","FALSE","FALSE","HIGH",496
+"644",59,"7:21","NA","Drank coffee:Drank tea:Worked out",63,"TRUE","FALSE","FALSE","HIGH",441
+"645",73,"7:32","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",452
+"646",83,"7:20","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",440
+"647",81,"8:18","NA","Drank coffee",59,"FALSE","FALSE","FALSE","LOW",498
+"648",66,"7:43","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",463
+"649",64,"6:29","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",389
+"650",18,"1:40","NA","",57,"NA","NA","NA","NA",100
+"651",82,"7:32","NA","Drank coffee:Drank tea",57,"FALSE","FALSE","FALSE","HIGH",452
+"652",95,"8:47","NA","Drank coffee:Drank tea:Worked out",62,"TRUE","FALSE","FALSE","HIGH",527
+"653",73,"6:59","NA","Drank coffee:Drank tea:Worked out",59,"TRUE","FALSE","FALSE","HIGH",419
+"654",73,"8:06","NA","Drank tea",59,"FALSE","FALSE","FALSE","LOW",486
+"655",77,"8:22","NA","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",502
+"656",75,"7:34","NA","Drank coffee:Drank tea:Worked out",60,"TRUE","FALSE","FALSE","HIGH",454
+"657",73,"7:36","NA","Drank tea",59,"FALSE","FALSE","FALSE","LOW",456
+"658",90,"7:56","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",476
+"659",88,"7:10","NA","Drank coffee:Drank tea:Stressful day:Worked out",64,"TRUE","TRUE","FALSE","HIGH",430
+"660",73,"7:52","NA","Drank coffee:Drank tea:Worked out",61,"TRUE","FALSE","FALSE","HIGH",472
+"661",90,"9:06","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",546
+"662",70,"7:32","NA","Drank coffee:Worked out",62,"TRUE","FALSE","FALSE","LOW",452
+"663",82,"8:28","NA","Drank tea:Worked out",62,"TRUE","FALSE","FALSE","LOW",508
+"664",73,"8:04","NA","Drank tea:Worked out",64,"TRUE","FALSE","FALSE","LOW",484
+"665",81,"7:43","NA","Drank coffee:Worked out",59,"TRUE","FALSE","FALSE","LOW",463
+"666",75,"7:41","NA","Drank coffee",60,"FALSE","FALSE","FALSE","LOW",461
+"667",88,"7:42","NA","Drank coffee:Stressful day:Worked out",63,"TRUE","TRUE","FALSE","LOW",462
+"668",75,"8:21","NA","Ate late:Drank coffee:Worked out",58,"TRUE","FALSE","TRUE","LOW",501
+"669",86,"7:19","NA","Drank coffee:Drank tea:Worked out",64,"TRUE","FALSE","FALSE","HIGH",439
+"670",80,"7:41","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",461
+"671",69,"8:05","NA","Drank coffee:Drank tea",59,"FALSE","FALSE","FALSE","HIGH",485
+"672",72,"9:16","NA","Drank coffee:Worked out",60,"TRUE","FALSE","FALSE","LOW",556
+"673",67,"7:06","NA","Drank coffee",63,"FALSE","FALSE","FALSE","LOW",426
+"674",74,"7:47","NA","Drank coffee:Worked out",57,"TRUE","FALSE","FALSE","LOW",467
+"675",76,"8:14","NA","Drank coffee:Drank tea:Stressful day:Worked out",62,"TRUE","TRUE","FALSE","HIGH",494
+"676",41,"7:40","NA","Drank coffee:Drank tea:Worked out",57,"TRUE","FALSE","FALSE","HIGH",460
+"677",70,"8:30","NA","Drank tea",58,"FALSE","FALSE","FALSE","LOW",510
+"678",67,"7:47","NA","",60,"NA","NA","NA","NA",467
+"679",78,"7:52","NA","",57,"NA","NA","NA","NA",472
+"680",93,"8:32","NA","",64,"NA","NA","NA","NA",512
+"681",74,"7:54","NA","",62,"NA","NA","NA","NA",474
+"682",68,"7:38","NA","",64,"NA","NA","NA","NA",458
+"683",76,"7:48","NA","",62,"NA","NA","NA","NA",468
+"684",31,"2:33","NA","",57,"NA","NA","NA","NA",153
+"685",7,"0:34","NA","",61,"NA","NA","NA","NA",34
+"686",66,"7:39","NA","",64,"NA","NA","NA","NA",459
+"687",70,"7:26","NA","",60,"NA","NA","NA","NA",446
+"688",77,"7:43","NA","",61,"NA","NA","NA","NA",463
+"689",10,"0:47","NA","",61,"NA","NA","NA","NA",47
+"690",72,"7:37","NA","",63,"NA","NA","NA","NA",457
+"691",59,"7:00","NA","",59,"NA","NA","NA","NA",420
+"692",74,"7:44","NA","",58,"NA","NA","NA","NA",464
+"693",83,"8:10","NA","",59,"NA","NA","NA","NA",490
+"694",90,"8:51","NA","",62,"NA","NA","NA","NA",531
+"695",86,"8:41","NA","",58,"NA","NA","NA","NA",521
+"696",69,"8:28","NA","",62,"NA","NA","NA","NA",508
+"697",77,"8:00","NA","",59,"NA","NA","NA","NA",480
+"698",81,"7:12","NA","",64,"NA","NA","NA","NA",432
+"699",73,"7:41","NA","",60,"NA","NA","NA","NA",461
+"700",74,"7:48","NA","",57,"NA","NA","NA","NA",468
+"701",66,"7:55","NA","",61,"NA","NA","NA","NA",475
+"702",73,"7:57","NA","",62,"NA","NA","NA","NA",477
+"703",70,"7:22","NA","",57,"NA","NA","NA","NA",442
+"704",74,"7:35","NA","",57,"NA","NA","NA","NA",455
+"705",65,"8:26","NA","",62,"NA","NA","NA","NA",506
+"706",67,"7:13","NA","",60,"NA","NA","NA","NA",433
+"707",81,"8:14","NA","",60,"NA","NA","NA","NA",494
+"708",78,"6:43","NA","",61,"NA","NA","NA","NA",403
+"709",69,"5:40","NA","",64,"NA","NA","NA","NA",340
+"710",70,"8:17","NA","",58,"NA","NA","NA","NA",497
+"711",71,"7:26","NA","",58,"NA","NA","NA","NA",446
+"712",84,"8:39","NA","",62,"NA","NA","NA","NA",519
+"713",87,"8:09","NA","",57,"NA","NA","NA","NA",489
+"714",68,"6:48","NA","",63,"NA","NA","NA","NA",408
+"715",78,"7:57","NA","",57,"NA","NA","NA","NA",477
+"716",84,"7:51","NA","",57,"NA","NA","NA","NA",471
+"717",5,"0:21","NA","",64,"NA","NA","NA","NA",21
+"718",87,"7:43","NA","",62,"NA","NA","NA","NA",463
+"719",74,"7:35","NA","",60,"NA","NA","NA","NA",455
+"720",51,"7:57","NA","",64,"NA","NA","NA","NA",477
+"721",38,"6:53","NA","",60,"NA","NA","NA","NA",413
+"722",72,"8:49","NA","",59,"NA","NA","NA","NA",529
+"723",89,"7:12","NA","",57,"NA","NA","NA","NA",432
+"724",82,"7:39","NA","",60,"NA","NA","NA","NA",459
+"725",77,"6:54","NA","",61,"NA","NA","NA","NA",414
+"726",81,"7:33","NA","",63,"NA","NA","NA","NA",453
+"727",80,"7:18","NA","",62,"NA","NA","NA","NA",438
+"728",76,"8:31","NA","",58,"NA","NA","NA","NA",511
+"729",81,"8:00","NA","",58,"NA","NA","NA","NA",480
+"730",99,"9:08","NA","",57,"NA","NA","NA","NA",548
+"731",73,"8:26","NA","",64,"NA","NA","NA","NA",506
+"732",81,"7:31","NA","",58,"NA","NA","NA","NA",451
+"733",59,"6:30","NA","",58,"NA","NA","NA","NA",390
+"734",79,"7:42","NA","",59,"NA","NA","NA","NA",462
+"735",58,"7:04","NA","",63,"NA","NA","NA","NA",424
+"736",67,"7:18","NA","",63,"NA","NA","NA","NA",438
+"737",83,"8:34","NA","",59,"NA","NA","NA","NA",514
+"738",81,"7:27","NA","",62,"NA","NA","NA","NA",447
+"739",35,"8:16","NA","",64,"NA","NA","NA","NA",496
+"740",30,"7:00","NA","",61,"NA","NA","NA","NA",420
+"741",94,"8:44","NA","",59,"NA","NA","NA","NA",524
+"742",82,"9:17","NA","",61,"NA","NA","NA","NA",557
+"743",74,"7:37","NA","",61,"NA","NA","NA","NA",457
+"744",81,"8:15","NA","",60,"NA","NA","NA","NA",495
+"745",89,"9:04","NA","",60,"NA","NA","NA","NA",544
+"746",81,"7:21","NA","",63,"NA","NA","NA","NA",441
+"747",84,"8:14","NA","",61,"NA","NA","NA","NA",494
+"748",59,"7:17","NA","",59,"NA","NA","NA","NA",437
+"749",81,"7:30","NA","",63,"NA","NA","NA","NA",450
+"750",79,"7:59","NA","",62,"NA","NA","NA","NA",479
+"751",77,"7:39","NA","",58,"NA","NA","NA","NA",459
+"752",74,"8:48","NA","",64,"NA","NA","NA","NA",528
+"753",56,"7:27","NA","",57,"NA","NA","NA","NA",447
+"754",86,"8:04","NA","",57,"NA","NA","NA","NA",484
+"755",55,"6:48","NA","",57,"NA","NA","NA","NA",408
+"756",79,"7:59","NA","",59,"NA","NA","NA","NA",479
+"757",91,"8:33","NA","",60,"NA","NA","NA","NA",513
+"758",71,"7:41","NA","",64,"NA","NA","NA","NA",461
+"759",69,"7:44","NA","",62,"NA","NA","NA","NA",464
+"760",76,"7:47","NA","",61,"NA","NA","NA","NA",467
+"761",65,"8:02","NA","",58,"NA","NA","NA","NA",482
+"762",72,"7:44","NA","",61,"NA","NA","NA","NA",464
+"763",80,"8:13","NA","",59,"NA","NA","NA","NA",493
+"764",73,"8:01","NA","",59,"NA","NA","NA","NA",481
+"765",66,"6:47","NA","",62,"NA","NA","NA","NA",407
+"766",83,"8:02","NA","",63,"NA","NA","NA","NA",482
+"767",75,"7:04","NA","",60,"NA","NA","NA","NA",424
+"768",80,"8:46","NA","",58,"NA","NA","NA","NA",526
+"769",79,"7:33","NA","",60,"NA","NA","NA","NA",453
+"770",69,"8:21","NA","",63,"NA","NA","NA","NA",501
+"771",76,"7:05","NA","",63,"NA","NA","NA","NA",425
+"772",96,"8:44","NA","",63,"NA","NA","NA","NA",524
+"773",75,"7:20","NA","",60,"NA","NA","NA","NA",440
+"774",76,"7:13","NA","",60,"NA","NA","NA","NA",433
+"775",55,"8:47","NA","",61,"NA","NA","NA","NA",527
+"776",71,"10:07","NA","",57,"NA","NA","NA","NA",607
+"777",79,"7:42","NA","",58,"NA","NA","NA","NA",462
+"778",80,"7:36","NA","",61,"NA","NA","NA","NA",456
+"779",71,"7:38","NA","",59,"NA","NA","NA","NA",458
+"780",79,"8:14","NA","",59,"NA","NA","NA","NA",494
+"781",88,"9:11","NA","",60,"NA","NA","NA","NA",551
+"782",80,"8:25","NA","",64,"NA","NA","NA","NA",505
+"783",69,"7:09","NA","",61,"NA","NA","NA","NA",429
+"784",74,"8:09","NA","",57,"NA","NA","NA","NA",489
+"785",78,"8:21","NA","",58,"NA","NA","NA","NA",501
+"786",60,"6:00","NA","",59,"NA","NA","NA","NA",360
+"787",100,"9:00","NA","",60,"NA","NA","NA","NA",540
+"788",89,"7:51","NA","",62,"NA","NA","NA","NA",471
+"789",79,"7:20","NA","",57,"NA","NA","NA","NA",440
+"790",82,"8:10","NA","",61,"NA","NA","NA","NA",490
+"791",65,"7:42","NA","",60,"NA","NA","NA","NA",462
+"792",83,"7:51","NA","",57,"NA","NA","NA","NA",471
+"793",65,"8:05","NA","",59,"NA","NA","NA","NA",485
+"794",59,"5:01","NA","",64,"NA","NA","NA","NA",301
+"795",91,"9:00","NA","",59,"NA","NA","NA","NA",540
+"796",78,"7:34","NA","",64,"NA","NA","NA","NA",454
+"797",62,"6:51","NA","",59,"NA","NA","NA","NA",411
+"798",49,"5:33","NA","",64,"NA","NA","NA","NA",333
+"799",74,"8:56","NA","",60,"NA","NA","NA","NA",536
+"800",89,"8:02","NA","",64,"NA","NA","NA","NA",482
+"801",70,"7:35","NA","",57,"NA","NA","NA","NA",455
+"802",75,"7:49","NA","",59,"NA","NA","NA","NA",469
+"803",90,"8:43","NA","",62,"NA","NA","NA","NA",523
+"804",76,"7:18","NA","",63,"NA","NA","NA","NA",438
+"805",96,"9:11","NA","",58,"NA","NA","NA","NA",551
+"806",83,"7:51","NA","",63,"NA","NA","NA","NA",471
+"807",84,"8:11","NA","",58,"NA","NA","NA","NA",491
+"808",79,"8:50","NA","",63,"NA","NA","NA","NA",530
+"809",93,"9:34","NA","",62,"NA","NA","NA","NA",574
+"810",85,"9:27","NA","",61,"NA","NA","NA","NA",567
+"811",80,"7:34","NA","",62,"NA","NA","NA","NA",454
+"812",91,"8:11","NA","",64,"NA","NA","NA","NA",491
+"813",82,"8:04","NA","",60,"NA","NA","NA","NA",484
+"814",86,"7:33","NA","",63,"NA","NA","NA","NA",453
+"815",68,"7:31","NA","",64,"NA","NA","NA","NA",451
+"816",80,"7:26","NA","",58,"NA","NA","NA","NA",446
+"817",80,"7:33","NA","",64,"NA","NA","NA","NA",453
+"818",100,"9:05","NA","",63,"NA","NA","NA","NA",545
+"819",63,"7:55","NA","",63,"NA","NA","NA","NA",475
+"820",73,"7:22","NA","",62,"NA","NA","NA","NA",442
+"821",80,"7:14","NA","",61,"NA","NA","NA","NA",434
+"822",83,"7:52","NA","",58,"NA","NA","NA","NA",472
+"823",77,"9:01","NA","",62,"NA","NA","NA","NA",541
+"824",63,"7:05","NA","",60,"NA","NA","NA","NA",425
+"825",70,"8:29","NA","",64,"NA","NA","NA","NA",509
+"826",68,"7:19","NA","",63,"NA","NA","NA","NA",439
+"827",63,"7:53","NA","",57,"NA","NA","NA","NA",473
+"828",82,"8:27","NA","",61,"NA","NA","NA","NA",507
+"829",95,"8:35","NA","",61,"NA","NA","NA","NA",515
+"830",70,"7:49","NA","",63,"NA","NA","NA","NA",469
+"831",68,"8:09","NA","",63,"NA","NA","NA","NA",489
+"832",72,"7:45","NA","",62,"NA","NA","NA","NA",465
+"833",60,"7:04","NA","",62,"NA","NA","NA","NA",424
+"834",80,"8:33","NA","",60,"NA","NA","NA","NA",513
+"835",79,"8:26","NA","",61,"NA","NA","NA","NA",506
+"836",79,"8:20","NA","",64,"NA","NA","NA","NA",500
+"837",59,"8:22","NA","",64,"NA","NA","NA","NA",502
+"838",75,"8:44","NA","",59,"NA","NA","NA","NA",524
+"839",97,"10:35","NA","",61,"NA","NA","NA","NA",635
+"840",75,"7:50","NA","",64,"NA","NA","NA","NA",470
+"841",75,"10:08","NA","",58,"NA","NA","NA","NA",608
+"842",81,"8:25","NA","",57,"NA","NA","NA","NA",505
+"843",76,"7:17","NA","",58,"NA","NA","NA","NA",437
+"844",0,"0:00","NA","",62,"NA","NA","NA","NA",0
+"845",91,"9:05","NA","",58,"NA","NA","NA","NA",545
+"846",86,"8:46","NA","",64,"NA","NA","NA","NA",526
+"847",83,"8:01","NA","",60,"NA","NA","NA","NA",481
+"848",77,"6:51","NA","",58,"NA","NA","NA","NA",411
+"849",90,"8:01","NA","",57,"NA","NA","NA","NA",481
+"850",71,"7:38","NA","",57,"NA","NA","NA","NA",458
+"851",70,"7:06","NA","",60,"NA","NA","NA","NA",426
+"852",70,"9:48","NA","",64,"NA","NA","NA","NA",588
+"853",64,"9:02","NA","",60,"NA","NA","NA","NA",542
+"854",73,"7:48","NA","",59,"NA","NA","NA","NA",468
+"855",79,"7:15","NA","",63,"NA","NA","NA","NA",435
+"856",71,"7:51","NA","",58,"NA","NA","NA","NA",471
+"857",84,"7:27","NA","",57,"NA","NA","NA","NA",447
+"858",59,"8:02","NA","",64,"NA","NA","NA","NA",482
+"859",71,"10:01","NA","",62,"NA","NA","NA","NA",601
+"860",67,"7:17","NA","",58,"NA","NA","NA","NA",437
+"861",84,"7:56","NA","",58,"NA","NA","NA","NA",476
+"862",66,"6:44","NA","",64,"NA","NA","NA","NA",404
+"863",73,"8:18","NA","",58,"NA","NA","NA","NA",498
+"864",84,"9:03","NA","",61,"NA","NA","NA","NA",543
+"865",72,"6:43","NA","",63,"NA","NA","NA","NA",403
+"866",92,"9:07","NA","",62,"NA","NA","NA","NA",547
+"867",81,"7:27","NA","",58,"NA","NA","NA","NA",447
+"868",69,"7:29","NA","",64,"NA","NA","NA","NA",449
+"869",79,"8:23","NA","",59,"NA","NA","NA","NA",503
+"870",77,"7:44","NA","",63,"NA","NA","NA","NA",464
+"871",72,"7:32","NA","",64,"NA","NA","NA","NA",452
+"872",80,"9:20","NA","",60,"NA","NA","NA","NA",560
+"873",65,"5:23","NA","",58,"NA","NA","NA","NA",323
+"874",8,"0:36","NA","",58,"NA","NA","NA","NA",36
+"875",96,"9:08","NA","",57,"NA","NA","NA","NA",548
+"876",72,"6:52","NA","",58,"NA","NA","NA","NA",412
+"877",78,"7:58","NA","",62,"NA","NA","NA","NA",478
+"878",82,"8:28","NA","",57,"NA","NA","NA","NA",508
+"879",73,"7:29","NA","",62,"NA","NA","NA","NA",449
+"880",93,"7:18","NA","",64,"NA","NA","NA","NA",438
+"881",76,"8:18","NA","",64,"NA","NA","NA","NA",498
+"882",91,"8:24","NA","",62,"NA","NA","NA","NA",504
+"883",91,"9:08","NA","",59,"NA","NA","NA","NA",548
+"884",81,"7:11","NA","",63,"NA","NA","NA","NA",431
+"885",71,"8:56","NA","",60,"NA","NA","NA","NA",536
+"886",80,"9:13","NA","",62,"NA","NA","NA","NA",553
+"887",91,"8:55","NA","",62,"NA","NA","NA","NA",535
