@@ -14,4 +14,6 @@ Below is the index of all the posts:
 
 <b> Analyzing Sleep Data </b>: Here we see how to implement Regression in the Sleep Data 
 
-<b> Multiple Variable Regression </b>: In this post we study on how to include more than one features in our model.
+<b> Multiple Variable Regression </b>: In this post we study how to include more than one features in our model.
+
+<b> Understanding SVM </b>: In this post we study how to implement classification using Support Vector Machines. We implement the Kernel for 4 cities of Australia: Perth, Adelaide, Darwin and Sydney
